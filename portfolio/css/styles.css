@@ -1,0 +1,262 @@
+.main_layout {
+  display: flex;
+  background-color: #007965;
+  color: #f8f1f1;
+  height: 100vh;
+}
+
+.img_col {
+  flex: 20%;
+}
+
+#main_img {
+  height: 100vh;
+}
+
+.main_heading {
+  flex: 80%;
+  padding-left: 10px;
+  margin: auto 0px auto 0px;
+}
+
+#edu_blocks {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#edu_text, #experience-text, #intro_text, #skill_text, #academic_text {
+  text-align: center;
+  color: #007965;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+#experience-text {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+#edu_masters, #edu_bachelors {
+  margin: auto;
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #007965, purple);
+  padding: 7px;
+  margin: 10px;
+  box-shadow: 4px 4px 2px #9e8b8b;
+}
+
+#edu_masters:hover, #edu_bachelors:hover {
+  box-shadow: 6px 6px 3px #9e8b8b;
+}
+
+#edu_masters {
+  margin-right: 50px;
+}
+
+#masters_info, #bachelors_info {
+  background: #ffffff;
+  padding: 2rem;
+  color: #007965;
+}
+
+#masters_info:hover, #bachelors_info:hover {
+  background: #f5f2f2;
+}
+
+td {
+  padding: 5px 20px 0px 20px;
+}
+
+#subheading {
+  color: #f4f5db;
+  margin-top: 2px;
+  font-family: 'Merriweather', serif;
+}
+
+#mainheadtitle {
+  color: #ffeebb;
+  margin-bottom: 2px;
+  font-family: 'Sacramento', cursive, Arial, sans-serif;
+  font-size: 60px;
+}
+
+.nav_bar_div {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  margin: auto;
+}
+
+.nav_bar {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.nav {
+  margin: 0px 20px 0px 0px;
+}
+
+a.nav_elements:hover {
+  color: purple;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+a.nav_elements:active {|
+  border-top-color: purple;
+}
+
+.nav_elements {
+  color: #007965;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Noto Serif', serif;
+}
+
+#education, #intro, #skills, #experience, #academics {
+  margin: 100px auto 100px auto;
+}
+
+#experience {
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+#horizontal_rule {
+  width: 20%;
+  border: dotted #8000809c 5px;
+  border-bottom: none;
+}
+
+#man_image {
+  border-radius: 100%;
+  width: 12rem;
+  height: auto;
+}
+
+#intro {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+  width: 40%;
+  text-align: justify;
+  margin: 50px auto 0px auto;
+  color: #214151;
+}
+
+#exp_image {
+  width: 100px;
+  border: 1px solid;
+  border-radius: 100%;
+}
+
+#designation {
+  display: flex;
+}
+
+#resilienx, #cognizant {
+  width: 50%;
+  margin: auto auto 50px auto;
+  padding: 20px;
+}
+
+#cognizant {
+  padding-bottom: 70px;
+}
+
+.exp_details {
+  margin: auto auto auto 20px;
+  text-align: left;
+}
+
+.exp_icon {
+  display: flex;
+  width: 100%;
+}
+
+.exp_para {
+  width: 100%;
+  margin: 20px auto auto auto;
+  color: #7f8a90;
+}
+
+.proj_para {
+  width: 100%;
+  margin: 20px auto auto auto;
+  color: #214151;
+}
+
+.exp_designation {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 2px auto;
+  color: #007965b5;
+}
+
+.exp_company {
+  font-size: 20px;
+  color: #007965;
+  margin: auto auto 2px auto;
+  font-family: 'Fraunces', serif;
+}
+
+.project {
+  display: flex;
+  margin: 70px auto 70px auto;
+  width: 60%;
+  margin: 70px auto;
+}
+
+.project_text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.proj_title {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  margin: auto auto 2px auto;
+  font-family: 'Fraunces', serif;
+}
+
+.skill_image {
+  height: 200px;
+  width: 300px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+#skills {
+  text-align: center;
+}
+
+#footer {
+  background-color: #007965;
+  height: 200px;
+  text-align: center;
+}
+
+.contact_icons {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+#images {
+  position: relative;
+  top: 80px;
+}
+
+.proj_image {
+  max-width: 100%;
+  height: auto;
+}
